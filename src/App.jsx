@@ -5,7 +5,7 @@ import Results from "./pages/Results";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/NeuroRoom">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/upload" element={<Upload />} />
